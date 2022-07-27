@@ -1,10 +1,10 @@
 import './App.css';
-import Home from "./components/Home"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Portfolio from "./components/Portfolio"
-import Resume from "./components/Resume"
+import Home from "./src/components/Home"
+import Contact from "./src/components/Contact"
+import Footer from "./src/components/Footer"
+import Header from "./src/components/Header"
+import Portfolio from "./src/components/Portfolio"
+import Resume from "./src/components/Resume"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App() {
   return (
