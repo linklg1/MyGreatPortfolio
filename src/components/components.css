@@ -1,3 +1,35 @@
-p {
-    color: blue;
+body{
+    background-color: rgb(156, 222, 168);
+}
+#name {
+    text-decoration:underline;
+}
+
+#contact-form {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+ #github {
+    height: 2%;
+    width: 2%;
+ }
+#linkedin{
+    height: 2%;
+    width: 2%;
+}
+#spotify{
+    height: 2%;
+    width: 2%;
+}
+#tumblr{
+    height: 2%;
+    width: 2%;
+}
+
+#footer {
+    font-size: small;
+    margin-right: 2085px;
+    margin-top: 875px;
+    text-shadow:1px 1px #0fb433;
 }
