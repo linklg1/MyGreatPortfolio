@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MyGreatPortfolio/static/css/main.2cbadfba.css",
+    "main.js": "/MyGreatPortfolio/static/js/main.65a921c8.js",
+    "static/js/787.00f579cb.chunk.js": "/MyGreatPortfolio/static/js/787.00f579cb.chunk.js",
+    "static/media/moodmatcher.png": "/MyGreatPortfolio/static/media/moodmatcher.d48927298384f2f3b265.png",
+    "static/media/passwordgenerator.png": "/MyGreatPortfolio/static/media/passwordgenerator.d9357107f246516feb76.png",
+    "static/media/techiestoday.png": "/MyGreatPortfolio/static/media/techiestoday.1c877528d8cf442ae3e6.png",
+    "static/media/weatherapp.png": "/MyGreatPortfolio/static/media/weatherapp.c5937ed6bde36c55e856.png",
+    "static/media/gamingforum.png": "/MyGreatPortfolio/static/media/gamingforum.689de94f2e4aa2de7d1b.png",
+    "static/media/notetaker.png": "/MyGreatPortfolio/static/media/notetaker.c493f66bde838da407d1.png",
+    "index.html": "/MyGreatPortfolio/index.html",
+    "main.2cbadfba.css.map": "/MyGreatPortfolio/static/css/main.2cbadfba.css.map",
+    "main.65a921c8.js.map": "/MyGreatPortfolio/static/js/main.65a921c8.js.map",
+    "787.00f579cb.chunk.js.map": "/MyGreatPortfolio/static/js/787.00f579cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cbadfba.css",
+    "static/js/main.65a921c8.js"
+  ]
+}
