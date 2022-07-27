@@ -1,4 +1,4 @@
-import './App.css';
+import './src/App.css';
 import Home from "./src/components/Home"
 import Contact from "./src/components/Contact"
 import Footer from "./src/components/Footer"
