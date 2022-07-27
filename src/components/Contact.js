@@ -33,7 +33,7 @@ console.log('Handle Form', formState);
 };
 
 return (
-<section>
+<section>    
 <form id="contact-form" onSubmit={handleSubmit}>
 <div>
 <label htmlFor="name">Name:</label>

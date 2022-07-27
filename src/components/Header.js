@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './Nav';
- function Header() {
+import "./components.css"
+
+function Header() {
   return (
     <div>
       <h1 id="name">Link Kawar</h1>

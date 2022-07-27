@@ -1,15 +1,45 @@
 body{
     background-color: rgb(156, 222, 168);
 }
+
 #name {
     text-decoration:underline;
 }
 
+
+
+.navigation #page1, #page2, #page3, #page4 
+    { background-color: #fff;}
+.navigation #page1:focus, #page2:focus, #page3:focus, #page4:focus 
+    { background-color: rgb(6, 140, 107);}
+
+li{
+        list-style: none;
+    }
+
+#bio {
+    word-wrap:inherit;
+    text-align: center;
+}
 #contact-form {
     margin-top: 50px;
     margin-bottom: 200px;
 }
 
+h1 {
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  h2 {
+    /* Sets bottom margin to 0 */
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    /* Sets top margin to 0 */
+    margin-top: 0;
+  }
  #github {
     height: 2%;
     width: 2%;
@@ -26,10 +56,16 @@ body{
     height: 2%;
     width: 2%;
 }
+#example-box1 {
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+    padding: 10px 20px;
+  }
 
 #footer {
     font-size: small;
     margin-right: 2085px;
-    margin-top: 875px;
+    margin-top: 405px;
     text-shadow:1px 1px #0fb433;
 }
