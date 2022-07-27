@@ -1,5 +1,6 @@
 import React from 'react';
 import "./components.css";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -7,12 +8,12 @@ function Nav() {
   
   return (
     
-    <ul id="nav" className='navigation'>
-      <li><a href="/Home" id="page1">About Me</a></li> <b/><b/>
-      <li><a href="/Contact"id="page2">Contact</a></li> <b/><b/>
-      <li> <a href="/Portfolio"id="page3">Portfolio</a></li> <b/><b/>
-      <li> <a href="/Resume"id="page4">Resume</a></li>
-    </ul>
+    <div id="nav" className='navigation'>
+      <NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')}to="/Home">About Me &nbsp; &nbsp; </NavLink>
+      <NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')}to="/Contact">Contact &nbsp; &nbsp; </NavLink>
+      <NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')}to="/Portfolio">Portfolio &nbsp; &nbsp; </NavLink>
+      <NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')}to="/Resume">Resume &nbsp; &nbsp; </NavLink>
+    </div>
   );
 }
 

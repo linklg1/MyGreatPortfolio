@@ -17,6 +17,7 @@ const handleSubmit = (e) => {
 e.preventDefault();
 if (!errorMessage) {
 console.log('Submit Form', formState);
+window.location.reload();
 }
 };
 
